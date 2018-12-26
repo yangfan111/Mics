@@ -2,7 +2,7 @@
 	name = fan yang
 	email = yfzc1526@outlook.com
 [winUpdater]
-	recentlySeenVersion = 2.19.2.windows.1
+	recentlySeenVersion = 2.20.1.windows.1
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -11,6 +11,29 @@
 [alias]
 	ss =  status -s
 	cmm = !git add -A && git commit -a -m '1'
-	ps  = !git cmm && git push
+	cps  = !git cmm && git push
+	ps = push
 	mg  = !git fetch && git merge
+	ck	=  checkout . 
+	dr = push origin --delete
+	crps =  push --set-upstream origin yf_audio
+    ca = !git cmm && git mg
 
+
+# [core]
+# 	excludesfile = d:\.gitignore
+[diff]
+	tool = vsdiffmerge
+[difftool]
+	prompt = true
+[difftool "vsdiffmerge"]
+	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\vsdiffmerge.exe\" \"$LOCAL\" \"$REMOTE\" //t
+	keepBackup = false
+[merge]
+	tool = vsdiffmerge
+[mergetool]
+	prompt = true
+[mergetool "vsdiffmerge"]
+	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\vsdiffmerge.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\" //m
+	keepBackup = false
+	trustExitCode = true

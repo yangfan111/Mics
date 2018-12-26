@@ -1,0 +1,38 @@
+[
+{ "keys": [""], "command": "next_result" },
+{ "keys": [""], "command": "prev_result" },
+{ "keys": [""], "command": "move", "args": {"by": "words", "forward": false} },
+{ "keys": [""], "command": "move", "args": {"by": "word_ends", "forward": true} },
+{ "keys": [""], "command": "scroll_lines", "args": {"amount": 1.0 } },
+{ "keys": [""], "command": "scroll_lines", "args": {"amount": -1.0 } },
+{ "keys": [""], "command": "next_bookmark" },
+{ "keys": [""], "command": "find_under_expand" },
+{ "keys": [""], "command": "transpose" },	
+{ "keys": ["f4"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+{ "keys": ["alt+left"], "command": "jump_back" },
+
+{ "keys": ["alt+right"], "command": "jump_forward" },
+{ "keys": ["alt+up"], "command": "swap_line_up" },
+{ "keys": ["alt+down"], "command": "swap_line_down" },
+{ "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
+{ "keys": ["alt+1"], "command": "find_next" },
+{ "keys": ["alt+`"], "command": "find_prev" },
+{ "keys": ["f3"], "command": "goto_definition" },
+
+{ "keys": ["f2"], "command": "goto_reference" },
+
+{ "keys": ["ctrl+t"], "command": "new_file" },
+
+{ "keys": ["alt+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+{ "keys": ["alt+e"], "command": "expand_selection", "args": {"to": "line"} },
+{
+        "keys": ["alt+2"],
+        "command": "project_manager", "args": {"action": "switch"}
+ },
+{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+{ "keys": ["ctrl+delete"], "command": "delete_word", "args": { "forward": true } }
+
+
+]

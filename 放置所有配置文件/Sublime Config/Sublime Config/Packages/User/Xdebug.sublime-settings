@@ -1,0 +1,14 @@
+{
+
+	"host": "localhost",
+	
+	"debug": true,
+	//URL选项相关
+	 // Always launch browser on session start/stop.
+    // Note: This will only work if you have the 'url' setting configured.
+
+      // Determine which URL to launch in the default web browser
+      // when starting/stopping a session.
+    "url":"http://localhost/server/",
+    "port": 9999
+}

@@ -1,0 +1,11 @@
+  {
+    "jsdocs_extra_tags":[
+       // "@Author Hybrid",
+        "@DateTime {{date}}"
+        //"@copyright ${1:[copyright]}",
+        //"@license ${1:[license]}",
+        //"@version ${1:[version]}"
+    ],
+    "jsdocs_function_description": false,
+      "jsdocs_indentation_spaces_same_para": 5
+  }

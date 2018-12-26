@@ -1,0 +1,422 @@
+[07/25/2018 10:51:49AM] INFO - ==== Loading "Xdebug Client.sublime-package" package ====
+[07/25/2018 03:15:01PM] WARNING - Could not import subprocess32 module, falling back to subprocess module
+[07/25/2018 07:12:54PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\element\\GMEntry.php' lang: PHP
+[07/25/2018 07:23:52PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 07:23:52PM] INFO - eval 'this.register' at GM_Mgr.php#28  <Trigger 'php-defn-defn' at 580 (explicit)>
+[07/25/2018 07:23:52PM] INFO - start scope is (<Element 'scope' at 0x0000000008A52E48>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:23:52PM] INFO - _hit_from_citdl:: expr: 'this.register', scoperef: (<Element 'scope' at 0x0000000008A52E48>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:23:52PM] INFO - _hit_from_citdl:: expr tokens: ['this', 'register']
+[07/25/2018 07:23:52PM] INFO - _hits_from_first_part:: find 'this ...' starting at (<Element 'scope' at 0x0000000008A52E48>, ['GM_Mgr', '__construct']):
+[07/25/2018 07:23:52PM] INFO - _hits_from_first_part:: Special handling for 'this'
+[07/25/2018 07:23:52PM] INFO - _hits_from_first_part:: need this for <Element 'scope' at 0x0000000008A523C8>
+[07/25/2018 07:23:52PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x0000000008A523C8>, (<Element 'scope' at 0x0000000008A52E48>, ['GM_Mgr']))
+[07/25/2018 07:23:52PM] INFO - _hits_from_first_part:: this returning scoperef: (<Element 'scope' at 0x0000000008A52E48>, ['GM_Mgr'])
+[07/25/2018 07:23:52PM] INFO - _hit_from_getattr:: resolve 'register' on <Element 'scope' at 0x0000000008A523C8> in (<Element 'scope' at 0x0000000008A52E48>, ['GM_Mgr']):
+[07/25/2018 07:23:52PM] INFO - _hit_from_getattr:: attr is <Element 'scope' at 0x0000000008A524A8> in <Element 'scope' at 0x0000000008A523C8>
+[07/25/2018 07:23:52PM] INFO - _hit_from_citdl:: found 'this.register' => <Element 'scope' at 0x0000000008A524A8> on (<Element 'scope' at 0x0000000008A52E48>, ['GM_Mgr'])
+[07/25/2018 07:23:52PM] INFO -     defns: [<Definition: function 'register' at GM_Mgr.php#12 in GM_Mgr.php lpath=['GM_Mgr']>]
+[07/25/2018 07:23:52PM] INFO - done eval: success
+[07/25/2018 07:23:54PM] INFO - eval 'this.register' at GM_Mgr.php#28  <Trigger 'php-defn-defn' at 580 (explicit)>
+[07/25/2018 07:23:54PM] INFO - start scope is (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:23:54PM] INFO - _hit_from_citdl:: expr: 'this.register', scoperef: (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:23:54PM] INFO - _hit_from_citdl:: expr tokens: ['this', 'register']
+[07/25/2018 07:23:54PM] INFO - _hits_from_first_part:: find 'this ...' starting at (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', '__construct']):
+[07/25/2018 07:23:54PM] INFO - _hits_from_first_part:: Special handling for 'this'
+[07/25/2018 07:23:54PM] INFO - _hits_from_first_part:: need this for <Element 'scope' at 0x00000000056AD978>
+[07/25/2018 07:23:54PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x00000000056AD978>, (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr']))
+[07/25/2018 07:23:54PM] INFO - _hits_from_first_part:: this returning scoperef: (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr'])
+[07/25/2018 07:23:54PM] INFO - _hit_from_getattr:: resolve 'register' on <Element 'scope' at 0x00000000056AD978> in (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr']):
+[07/25/2018 07:23:54PM] INFO - _hit_from_getattr:: attr is <Element 'scope' at 0x00000000055549E8> in <Element 'scope' at 0x00000000056AD978>
+[07/25/2018 07:23:54PM] INFO - _hit_from_citdl:: found 'this.register' => <Element 'scope' at 0x00000000055549E8> on (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr'])
+[07/25/2018 07:23:54PM] INFO -     defns: [<Definition: function 'register' at GM_Mgr.php#12 in GM_Mgr.php lpath=['GM_Mgr']>]
+[07/25/2018 07:23:54PM] INFO - done eval: success
+[07/25/2018 07:23:57PM] INFO - eval 'this.register' at GM_Mgr.php#28  <Trigger 'php-defn-defn' at 579 (explicit)>
+[07/25/2018 07:23:57PM] INFO - start scope is (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:23:57PM] INFO - _hit_from_citdl:: expr: 'this.register', scoperef: (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:23:57PM] INFO - _hit_from_citdl:: expr tokens: ['this', 'register']
+[07/25/2018 07:23:57PM] INFO - _hits_from_first_part:: find 'this ...' starting at (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', '__construct']):
+[07/25/2018 07:23:57PM] INFO - _hits_from_first_part:: Special handling for 'this'
+[07/25/2018 07:23:57PM] INFO - _hits_from_first_part:: need this for <Element 'scope' at 0x0000000008A52748>
+[07/25/2018 07:23:57PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x0000000008A52748>, (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr']))
+[07/25/2018 07:23:57PM] INFO - _hits_from_first_part:: this returning scoperef: (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr'])
+[07/25/2018 07:23:57PM] INFO - _hit_from_getattr:: resolve 'register' on <Element 'scope' at 0x0000000008A52748> in (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr']):
+[07/25/2018 07:23:57PM] INFO - _hit_from_getattr:: attr is <Element 'scope' at 0x0000000008A52F28> in <Element 'scope' at 0x0000000008A52748>
+[07/25/2018 07:23:57PM] INFO - _hit_from_citdl:: found 'this.register' => <Element 'scope' at 0x0000000008A52F28> on (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr'])
+[07/25/2018 07:23:57PM] INFO -     defns: [<Definition: function 'register' at GM_Mgr.php#12 in GM_Mgr.php lpath=['GM_Mgr']>]
+[07/25/2018 07:23:57PM] INFO - done eval: success
+[07/25/2018 07:24:40PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 07:24:40PM] INFO - eval 'this.register' at GM_Mgr.php#28  <Trigger 'php-defn-defn' at 582 (explicit)>
+[07/25/2018 07:24:40PM] INFO - start scope is (<Element 'scope' at 0x000000000448EEB8>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:24:40PM] INFO - _hit_from_citdl:: expr: 'this.register', scoperef: (<Element 'scope' at 0x000000000448EEB8>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:24:40PM] INFO - _hit_from_citdl:: expr tokens: ['this', 'register']
+[07/25/2018 07:24:40PM] INFO - _hits_from_first_part:: find 'this ...' starting at (<Element 'scope' at 0x000000000448EEB8>, ['GM_Mgr', '__construct']):
+[07/25/2018 07:24:40PM] INFO - _hits_from_first_part:: Special handling for 'this'
+[07/25/2018 07:24:40PM] INFO - _hits_from_first_part:: need this for <Element 'scope' at 0x000000000448E668>
+[07/25/2018 07:24:40PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x000000000448E668>, (<Element 'scope' at 0x000000000448EEB8>, ['GM_Mgr']))
+[07/25/2018 07:24:40PM] INFO - _hits_from_first_part:: this returning scoperef: (<Element 'scope' at 0x000000000448EEB8>, ['GM_Mgr'])
+[07/25/2018 07:24:40PM] INFO - _hit_from_getattr:: resolve 'register' on <Element 'scope' at 0x000000000448E668> in (<Element 'scope' at 0x000000000448EEB8>, ['GM_Mgr']):
+[07/25/2018 07:24:40PM] INFO - _hit_from_getattr:: attr is <Element 'scope' at 0x00000000055782E8> in <Element 'scope' at 0x000000000448E668>
+[07/25/2018 07:24:40PM] INFO - _hit_from_citdl:: found 'this.register' => <Element 'scope' at 0x00000000055782E8> on (<Element 'scope' at 0x000000000448EEB8>, ['GM_Mgr'])
+[07/25/2018 07:24:40PM] INFO -     defns: [<Definition: function 'register' at GM_Mgr.php#12 in GM_Mgr.php lpath=['GM_Mgr']>]
+[07/25/2018 07:24:40PM] INFO - done eval: success
+[07/25/2018 07:24:42PM] INFO - eval 'this.register' at GM_Mgr.php#28  <Trigger 'php-defn-defn' at 581 (explicit)>
+[07/25/2018 07:24:42PM] INFO - start scope is (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:24:42PM] INFO - _hit_from_citdl:: expr: 'this.register', scoperef: (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:24:42PM] INFO - _hit_from_citdl:: expr tokens: ['this', 'register']
+[07/25/2018 07:24:42PM] INFO - _hits_from_first_part:: find 'this ...' starting at (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', '__construct']):
+[07/25/2018 07:24:42PM] INFO - _hits_from_first_part:: Special handling for 'this'
+[07/25/2018 07:24:42PM] INFO - _hits_from_first_part:: need this for <Element 'scope' at 0x00000000055D4A58>
+[07/25/2018 07:24:42PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x00000000055D4A58>, (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr']))
+[07/25/2018 07:24:42PM] INFO - _hits_from_first_part:: this returning scoperef: (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr'])
+[07/25/2018 07:24:42PM] INFO - _hit_from_getattr:: resolve 'register' on <Element 'scope' at 0x00000000055D4A58> in (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr']):
+[07/25/2018 07:24:42PM] INFO - _hit_from_getattr:: attr is <Element 'scope' at 0x0000000005610EB8> in <Element 'scope' at 0x00000000055D4A58>
+[07/25/2018 07:24:42PM] INFO - _hit_from_citdl:: found 'this.register' => <Element 'scope' at 0x0000000005610EB8> on (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr'])
+[07/25/2018 07:24:42PM] INFO -     defns: [<Definition: function 'register' at GM_Mgr.php#12 in GM_Mgr.php lpath=['GM_Mgr']>]
+[07/25/2018 07:24:42PM] INFO - done eval: success
+[07/25/2018 07:24:43PM] INFO - eval 'this.init' at GM_Mgr.php#29  <Trigger 'php-defn-defn' at 601 (explicit)>
+[07/25/2018 07:24:43PM] INFO - start scope is (<Element 'scope' at 0x00000000054E09E8>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:24:43PM] INFO - _hit_from_citdl:: expr: 'this.init', scoperef: (<Element 'scope' at 0x00000000054E09E8>, ['GM_Mgr', '__construct'])
+[07/25/2018 07:24:43PM] INFO - _hit_from_citdl:: expr tokens: ['this', 'init']
+[07/25/2018 07:24:43PM] INFO - _hits_from_first_part:: find 'this ...' starting at (<Element 'scope' at 0x00000000054E09E8>, ['GM_Mgr', '__construct']):
+[07/25/2018 07:24:43PM] INFO - _hits_from_first_part:: Special handling for 'this'
+[07/25/2018 07:24:43PM] INFO - _hits_from_first_part:: need this for <Element 'scope' at 0x00000000054E0048>
+[07/25/2018 07:24:43PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x00000000054E0048>, (<Element 'scope' at 0x00000000054E09E8>, ['GM_Mgr']))
+[07/25/2018 07:24:43PM] INFO - _hits_from_first_part:: this returning scoperef: (<Element 'scope' at 0x00000000054E09E8>, ['GM_Mgr'])
+[07/25/2018 07:24:43PM] INFO - _hit_from_getattr:: resolve 'init' on <Element 'scope' at 0x00000000054E0048> in (<Element 'scope' at 0x00000000054E09E8>, ['GM_Mgr']):
+[07/25/2018 07:24:43PM] INFO - _hit_from_getattr:: attr is <Element 'scope' at 0x0000000005610518> in <Element 'scope' at 0x00000000054E0048>
+[07/25/2018 07:24:43PM] INFO - _hit_from_citdl:: found 'this.init' => <Element 'scope' at 0x0000000005610518> on (<Element 'scope' at 0x00000000054E09E8>, ['GM_Mgr'])
+[07/25/2018 07:24:43PM] INFO -     defns: [<Definition: function 'init' at GM_Mgr.php#69 in GM_Mgr.php lpath=['GM_Mgr']>]
+[07/25/2018 07:24:43PM] INFO - done eval: success
+[07/25/2018 07:24:45PM] INFO - eval 'ServerData' at GM_Mgr.php#78  <Trigger 'php-defn-defn' at 1754 (explicit)>
+[07/25/2018 07:24:45PM] INFO - start scope is (<Element 'scope' at 0x00000000055093C8>, ['GM_Mgr', 'initConfig'])
+[07/25/2018 07:24:45PM] INFO - _hit_from_citdl:: expr: 'ServerData', scoperef: (<Element 'scope' at 0x00000000055093C8>, ['GM_Mgr', 'initConfig'])
+[07/25/2018 07:24:45PM] INFO - _hit_from_citdl:: expr tokens: ['ServerData']
+[07/25/2018 07:24:45PM] INFO - _hits_from_first_part:: find 'ServerData ...' starting at (<Element 'scope' at 0x00000000055093C8>, ['GM_Mgr', 'initConfig']):
+[07/25/2018 07:24:45PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x00000000055093C8>, ['GM_Mgr', 'initConfig']):
+[07/25/2018 07:24:45PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:24:45PM] INFO - _hits_from_first_part:: pt3: is 'ServerData' accessible on (<Element 'scope' at 0x00000000055093C8>, ['GM_Mgr', 'initConfig'])? no
+[07/25/2018 07:24:45PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x00000000055093C8>, []):
+[07/25/2018 07:24:45PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:24:45PM] INFO - _hits_from_first_part:: pt3: is 'ServerData' accessible on (<Element 'scope' at 0x00000000055093C8>, [])? no
+[07/25/2018 07:24:45PM] INFO - _hit_from_elem_imports:: trying import everything: tokens: ['ServerData']
+[07/25/2018 07:24:45PM] INFO - _hit_from_elem_imports:: trying with lpath: ('ServerData',)
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.django.html' for <Django HTML Template LangInfo> conflicts with the same for <Django XML Template LangInfo> (<Django HTML Template LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.django.html' for <Django Template LangInfo> conflicts with the same for <Django HTML Template LangInfo> (<Django Template LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.xs' for <C++ LangInfo> conflicts with the same for <C LangInfo> (<C++ LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.po' for <GetText LangInfo> conflicts with the same for <PO LangInfo> (<GetText LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext update: ext: .sql, <MySQL LangInfo> is a minor variant of <SQL LangInfo>
+[07/25/2018 07:24:45PM] DEBUG - ext update: found variant for ext .sql, li:<MySQL LangInfo>, using:<SQL LangInfo>
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.html' for <HTML LangInfo> conflicts with the same for <HTML5 LangInfo> (<HTML LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.htm' for <HTML LangInfo> conflicts with the same for <HTML5 LangInfo> (<HTML LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.django.html' for <Django XHTML Template LangInfo> conflicts with the same for <Django Template LangInfo> (<Django XHTML Template LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.django.html' for <Django Text Template LangInfo> conflicts with the same for <Django XHTML Template LangInfo> (<Django Text Template LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.pb' for <PureBasic LangInfo> conflicts with the same for <PowerBasic LangInfo> (<PureBasic LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: '.js' for <Node.js LangInfo> conflicts with the same for <JavaScript LangInfo> (<Node.js LangInfo> wins)
+[07/25/2018 07:24:45PM] DEBUG - ext update: ext: .py, <Python LangInfo> is *not* a minor variant of <Python3 LangInfo>
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: ext:.py, replace variant <Python3 LangInfo> with <Python LangInfo>
+[07/25/2018 07:24:45PM] DEBUG - ext update: ext: .pyw, <Python LangInfo> is *not* a minor variant of <Python3 LangInfo>
+[07/25/2018 07:24:45PM] DEBUG - ext conflict: ext:.pyw, replace variant <Python3 LangInfo> with <Python LangInfo>
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'GM_CMDHandler.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_CMDHandler.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'GM_Checker.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Checker.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'GM_Log.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Log.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'test.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\test.php' lang: PHP
+[07/25/2018 07:24:45PM] INFO - _hit_from_elem_imports:: ie: lookup ('ServerData',) in <PHP curdirlib> => []
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'MessageData.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\container\\MessageData.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'ServerData.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\container\\ServerData.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'GM_Entrance.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\GM_Entrance.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'distribute.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\distribute.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'GM_OpObject.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\element\\GM_OpObject.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'MessageInfo.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\element\\MessageInfo.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'ServerInfo.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\element\\ServerInfo.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'ItemInfo.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\element\\ItemInfo.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'MessageBodyInfo.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\element\\MessageBodyInfo.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'AppRegistry.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\static\\AppRegistry.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'AppConst.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\static\\AppConst.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'Util.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\static\\Util.php' lang: PHP
+[07/25/2018 07:24:45PM] DEBUG - lang from ext: `.php' -> `PHP'
+[07/25/2018 07:24:45PM] DEBUG - UTF-8 encoding: 'utf-8'
+[07/25/2018 07:24:45PM] INFO - load <PHP buf 'AppScriptLoader.php'>
+[07/25/2018 07:24:45PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\static\\AppScriptLoader.php' lang: PHP
+[07/25/2018 07:24:45PM] INFO - _hit_from_elem_imports:: ie: lookup ('ServerData',) in <PHP extradirslib> => [(<Element 'scope' at 0x00000000054EFBA8>, (<Element 'scope' at 0x00000000054EFB38>, []))]
+[07/25/2018 07:24:45PM] INFO - _hit_from_elem_imports:: ie: matched ('ServerData',) to <Element 'scope' at 0x00000000054EFBA8> in blob <Element 'scope' at 0x00000000054EFB38>
+[07/25/2018 07:24:45PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x00000000054EFBA8>, (<Element 'scope' at 0x00000000054EFB38>, []))
+[07/25/2018 07:24:45PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x00000000054EFBA8>, (<Element 'scope' at 0x00000000054EFB38>, []))
+[07/25/2018 07:24:45PM] INFO - _hits_from_first_part:: pt4: is 'ServerData' accessible on (<Element 'scope' at 0x00000000055093C8>, [])? yes, imported: <Element 'scope' at 0x00000000054EFBA8>
+[07/25/2018 07:24:45PM] INFO - _hit_from_citdl:: found 'ServerData' => <Element 'scope' at 0x00000000054EFBA8> on (<Element 'scope' at 0x00000000054EFB38>, [])
+[07/25/2018 07:24:45PM] INFO -     defns: [<Definition: class 'ServerData' at ServerData.php#3 in ServerData.php lpath=[]>]
+[07/25/2018 07:24:45PM] INFO - done eval: success
+[07/25/2018 07:24:46PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\container\\ServerData.php' lang: PHP
+[07/25/2018 07:24:46PM] INFO - eval '' at ServerData.php#23  <Trigger 'php-defn-defn' at 403 (explicit)>
+[07/25/2018 07:24:46PM] INFO - start scope is (<Element 'scope' at 0x0000000008A73438>, ['ServerData', 'changeServerState'])
+[07/25/2018 07:24:46PM] INFO - _hit_from_citdl:: expr: '', scoperef: (<Element 'scope' at 0x0000000008A73438>, ['ServerData', 'changeServerState'])
+[07/25/2018 07:24:46PM] INFO - _hit_from_citdl:: expr tokens: ['']
+[07/25/2018 07:24:46PM] INFO - _hits_from_first_part:: find ' ...' starting at (<Element 'scope' at 0x0000000008A73438>, ['ServerData', 'changeServerState']):
+[07/25/2018 07:24:46PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x0000000008A73438>, ['ServerData', 'changeServerState']):
+[07/25/2018 07:24:46PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:24:46PM] INFO - _hits_from_first_part:: pt3: is '' accessible on (<Element 'scope' at 0x0000000008A73438>, ['ServerData', 'changeServerState'])? no
+[07/25/2018 07:24:46PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x0000000008A73438>, []):
+[07/25/2018 07:24:46PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:24:46PM] INFO - _hits_from_first_part:: pt3: is '' accessible on (<Element 'scope' at 0x0000000008A73438>, [])? no
+[07/25/2018 07:24:46PM] INFO - _hit_from_elem_imports:: trying import everything: tokens: ['']
+[07/25/2018 07:24:46PM] INFO - _hit_from_elem_imports:: trying with lpath: ('',)
+[07/25/2018 07:24:46PM] INFO - _hit_from_elem_imports:: ie: lookup ('',) in <PHP curdirlib> => []
+[07/25/2018 07:24:46PM] INFO - _hit_from_elem_imports:: ie: lookup ('',) in <PHP extradirslib> => []
+[07/25/2018 07:24:46PM] INFO - _hit_from_elem_imports:: ie: lookup ('',) in <PHP cataloglib: > => []
+[07/25/2018 07:24:46PM] INFO - _hit_from_elem_imports:: ie: lookup ('',) in <php-5.5 stdlib> => []
+[07/25/2018 07:24:46PM] INFO - _hit_from_elem_imports:: ie: no matches found
+[07/25/2018 07:24:46PM] ERROR - evaluating '' at ServerData.php#23: could not resolve first part of ''
+[07/25/2018 07:24:46PM] INFO - done eval: eval error
+[07/25/2018 07:29:42PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 07:29:42PM] INFO - eval 'h' at GM_Mgr.php#60  <Trigger 'php-complete-variables' at 1383 (explicit)>
+[07/25/2018 07:29:42PM] INFO - variable_names_from_scope_starting_with_expr:: expr: None, scoperef: (<Element 'scope' at 0x000000000556C5F8>, ['GM_Mgr', 'handleGMCmd']) for ('locals', 'builtins')
+[07/25/2018 07:29:42PM] INFO - variable_names_from_scope_starting_with_expr:: adding locals: ['gmObject', 'handlerObject', 'ret']
+[07/25/2018 07:29:42PM] INFO -     cplns: [('variable', 'handlerObject')]
+[07/25/2018 07:29:42PM] INFO - done eval: success
+[07/25/2018 07:29:42PM] INFO - Autocomplete called (PHP) [cplns]
+[07/25/2018 07:29:46PM] INFO - eval 'h' at GM_Mgr.php#60  <Trigger 'php-complete-variables' at 1383 (explicit)>
+[07/25/2018 07:29:46PM] INFO - variable_names_from_scope_starting_with_expr:: expr: None, scoperef: (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', 'handleGMCmd']) for ('locals', 'builtins')
+[07/25/2018 07:29:46PM] INFO - variable_names_from_scope_starting_with_expr:: adding locals: ['gmObject', 'handlerObject', 'ret']
+[07/25/2018 07:29:46PM] INFO -     cplns: [('variable', 'handlerObject')]
+[07/25/2018 07:29:46PM] INFO - done eval: success
+[07/25/2018 07:29:46PM] INFO - Autocomplete called (PHP) [cplns]
+[07/25/2018 07:30:20PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 07:30:20PM] INFO - eval 'handlerObject' at GM_Mgr.php#60  <Trigger 'php-defn-defn' at 1390 (explicit)>
+[07/25/2018 07:30:20PM] INFO - start scope is (<Element 'scope' at 0x0000000005610518>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:20PM] INFO - _hit_from_citdl:: expr: 'handlerObject', scoperef: (<Element 'scope' at 0x0000000005610518>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:20PM] INFO - _hit_from_citdl:: expr tokens: ['handlerObject']
+[07/25/2018 07:30:20PM] INFO - _hits_from_first_part:: find 'handlerObject ...' starting at (<Element 'scope' at 0x0000000005610518>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:30:20PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x0000000005610518>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:30:20PM] INFO - _return_with_hit:: hit is okay: (<Element 'variable' at 0x000000000448E358>, (<Element 'scope' at 0x0000000005610518>, ['GM_Mgr', 'handleGMCmd']))
+[07/25/2018 07:30:20PM] INFO - _hits_from_first_part:: pt1: is 'handlerObject' accessible on (<Element 'scope' at 0x0000000005610518>, ['GM_Mgr', 'handleGMCmd'])? yes: <Element 'variable' at 0x000000000448E358>
+[07/25/2018 07:30:20PM] INFO - _hit_from_citdl:: found 'handlerObject' => <Element 'variable' at 0x000000000448E358> on (<Element 'scope' at 0x0000000005610518>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:20PM] INFO -     defns: [<Definition: variable 'handlerObject' at GM_Mgr.php#59 in GM_Mgr.php lpath=['GM_Mgr', 'handleGMCmd']>]
+[07/25/2018 07:30:20PM] INFO - done eval: success
+[07/25/2018 07:30:22PM] INFO - eval 'handlerObject' at GM_Mgr.php#60  <Trigger 'php-defn-defn' at 1388 (explicit)>
+[07/25/2018 07:30:22PM] INFO - start scope is (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:22PM] INFO - _hit_from_citdl:: expr: 'handlerObject', scoperef: (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:22PM] INFO - _hit_from_citdl:: expr tokens: ['handlerObject']
+[07/25/2018 07:30:22PM] INFO - _hits_from_first_part:: find 'handlerObject ...' starting at (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:30:22PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:30:22PM] INFO - _return_with_hit:: hit is okay: (<Element 'variable' at 0x00000000056103C8>, (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', 'handleGMCmd']))
+[07/25/2018 07:30:22PM] INFO - _hits_from_first_part:: pt1: is 'handlerObject' accessible on (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', 'handleGMCmd'])? yes: <Element 'variable' at 0x00000000056103C8>
+[07/25/2018 07:30:22PM] INFO - _hit_from_citdl:: found 'handlerObject' => <Element 'variable' at 0x00000000056103C8> on (<Element 'scope' at 0x0000000004C03588>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:22PM] INFO -     defns: [<Definition: variable 'handlerObject' at GM_Mgr.php#59 in GM_Mgr.php lpath=['GM_Mgr', 'handleGMCmd']>]
+[07/25/2018 07:30:22PM] INFO - done eval: success
+[07/25/2018 07:30:23PM] INFO - eval 'handlerObject' at GM_Mgr.php#60  <Trigger 'php-defn-defn' at 1388 (explicit)>
+[07/25/2018 07:30:23PM] INFO - start scope is (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:23PM] INFO - _hit_from_citdl:: expr: 'handlerObject', scoperef: (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:23PM] INFO - _hit_from_citdl:: expr tokens: ['handlerObject']
+[07/25/2018 07:30:23PM] INFO - _hits_from_first_part:: find 'handlerObject ...' starting at (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:30:23PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:30:23PM] INFO - _return_with_hit:: hit is okay: (<Element 'variable' at 0x000000000448EA58>, (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd']))
+[07/25/2018 07:30:23PM] INFO - _hits_from_first_part:: pt1: is 'handlerObject' accessible on (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd'])? yes: <Element 'variable' at 0x000000000448EA58>
+[07/25/2018 07:30:23PM] INFO - _hit_from_citdl:: found 'handlerObject' => <Element 'variable' at 0x000000000448EA58> on (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:23PM] INFO -     defns: [<Definition: variable 'handlerObject' at GM_Mgr.php#59 in GM_Mgr.php lpath=['GM_Mgr', 'handleGMCmd']>]
+[07/25/2018 07:30:23PM] INFO - done eval: success
+[07/25/2018 07:30:24PM] INFO - eval 'handlerObject' at GM_Mgr.php#60  <Trigger 'php-defn-defn' at 1393 (explicit)>
+[07/25/2018 07:30:24PM] INFO - start scope is (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:24PM] INFO - _hit_from_citdl:: expr: 'handlerObject', scoperef: (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:24PM] INFO - _hit_from_citdl:: expr tokens: ['handlerObject']
+[07/25/2018 07:30:24PM] INFO - _hits_from_first_part:: find 'handlerObject ...' starting at (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:30:24PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:30:24PM] INFO - _return_with_hit:: hit is okay: (<Element 'variable' at 0x00000000056103C8>, (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd']))
+[07/25/2018 07:30:24PM] INFO - _hits_from_first_part:: pt1: is 'handlerObject' accessible on (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd'])? yes: <Element 'variable' at 0x00000000056103C8>
+[07/25/2018 07:30:24PM] INFO - _hit_from_citdl:: found 'handlerObject' => <Element 'variable' at 0x00000000056103C8> on (<Element 'scope' at 0x00000000055A19E8>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:24PM] INFO -     defns: [<Definition: variable 'handlerObject' at GM_Mgr.php#59 in GM_Mgr.php lpath=['GM_Mgr', 'handleGMCmd']>]
+[07/25/2018 07:30:24PM] INFO - done eval: success
+[07/25/2018 07:30:25PM] INFO - eval 'this.handlerMap' at GM_Mgr.php#59  <Trigger 'php-defn-defn' at 1340 (explicit)>
+[07/25/2018 07:30:25PM] INFO - start scope is (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:25PM] INFO - _hit_from_citdl:: expr: 'this.handlerMap', scoperef: (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:30:25PM] INFO - _hit_from_citdl:: expr tokens: ['this', 'handlerMap']
+[07/25/2018 07:30:25PM] INFO - _hits_from_first_part:: find 'this ...' starting at (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:30:25PM] INFO - _hits_from_first_part:: Special handling for 'this'
+[07/25/2018 07:30:25PM] INFO - _hits_from_first_part:: need this for <Element 'scope' at 0x0000000004C03588>
+[07/25/2018 07:30:25PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x0000000004C03588>, (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr']))
+[07/25/2018 07:30:25PM] INFO - _hits_from_first_part:: this returning scoperef: (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr'])
+[07/25/2018 07:30:25PM] INFO - _hit_from_getattr:: resolve 'handlerMap' on <Element 'scope' at 0x0000000004C03588> in (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr']):
+[07/25/2018 07:30:25PM] INFO - _hit_from_getattr:: attr is <Element 'variable' at 0x00000000055A19E8> in <Element 'scope' at 0x0000000004C03588>
+[07/25/2018 07:30:25PM] INFO - _hit_from_citdl:: found 'this.handlerMap' => <Element 'variable' at 0x00000000055A19E8> on (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr'])
+[07/25/2018 07:30:25PM] INFO -     defns: [<Definition: variable 'handlerMap' at GM_Mgr.php#6 in GM_Mgr.php lpath=['GM_Mgr']>]
+[07/25/2018 07:30:25PM] INFO - done eval: success
+[07/25/2018 07:32:30PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 07:32:30PM] INFO - eval 'ErrorConst.REQUEST_CMD_EXCUTE_ERROR' at GM_Mgr.php#62  <Trigger 'php-defn-defn' at 1502 (explicit)>
+[07/25/2018 07:32:30PM] INFO - start scope is (<Element 'scope' at 0x0000000008A73C18>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:32:30PM] INFO - _hit_from_citdl:: expr: 'ErrorConst.REQUEST_CMD_EXCUTE_ERROR', scoperef: (<Element 'scope' at 0x0000000008A73C18>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:32:30PM] INFO - _hit_from_citdl:: expr tokens: ['ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR']
+[07/25/2018 07:32:30PM] INFO - _hits_from_first_part:: find 'ErrorConst ...' starting at (<Element 'scope' at 0x0000000008A73C18>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:32:30PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x0000000008A73C18>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:32:30PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:32:30PM] INFO - _hits_from_first_part:: pt3: is 'ErrorConst' accessible on (<Element 'scope' at 0x0000000008A73C18>, ['GM_Mgr', 'handleGMCmd'])? no
+[07/25/2018 07:32:30PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x0000000008A73C18>, []):
+[07/25/2018 07:32:30PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:32:30PM] INFO - _hits_from_first_part:: pt3: is 'ErrorConst' accessible on (<Element 'scope' at 0x0000000008A73C18>, [])? no
+[07/25/2018 07:32:30PM] INFO - _hit_from_elem_imports:: trying import everything: tokens: ['ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR']
+[07/25/2018 07:32:30PM] INFO - _hit_from_elem_imports:: trying with lpath: ('ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR')
+[07/25/2018 07:32:30PM] INFO - _hit_from_elem_imports:: ie: lookup ('ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR') in <PHP curdirlib> => []
+[07/25/2018 07:32:30PM] INFO - _hit_from_elem_imports:: ie: lookup ('ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR') in <PHP extradirslib> => [(<Element 'variable' at 0x00000000054E0048>, (<Element 'scope' at 0x000000000448E3C8>, ['ErrorConst']))]
+[07/25/2018 07:32:30PM] INFO - _hit_from_elem_imports:: ie: matched ('ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR') to <Element 'variable' at 0x00000000054E0048> in blob <Element 'scope' at 0x000000000448E3C8>
+[07/25/2018 07:32:30PM] INFO - _return_with_hit:: hit is okay: (<Element 'variable' at 0x00000000054E0048>, (<Element 'scope' at 0x000000000448E3C8>, ['ErrorConst']))
+[07/25/2018 07:32:30PM] INFO - _return_with_hit:: hit is okay: (<Element 'variable' at 0x00000000054E0048>, (<Element 'scope' at 0x000000000448E3C8>, ['ErrorConst']))
+[07/25/2018 07:32:30PM] INFO - _hits_from_first_part:: pt4: is 'ErrorConst.REQUEST_CMD_EXCUTE_ERROR' accessible on (<Element 'scope' at 0x0000000008A73C18>, [])? yes, imported: <Element 'variable' at 0x00000000054E0048>
+[07/25/2018 07:32:30PM] INFO - _hit_from_citdl:: found 'ErrorConst.REQUEST_CMD_EXCUTE_ERROR' => <Element 'variable' at 0x00000000054E0048> on (<Element 'scope' at 0x000000000448E3C8>, ['ErrorConst'])
+[07/25/2018 07:32:30PM] INFO -     defns: [<Definition: constant 'REQUEST_CMD_EXCUTE_ERROR' at ErrorObject.php#68 in ErrorObject.php lpath=['ErrorConst']>]
+[07/25/2018 07:32:30PM] INFO - done eval: success
+[07/25/2018 07:32:35PM] INFO - eval 'ErrorConst.REQUEST_CMD_EXCUTE_ERROR' at GM_Mgr.php#62  <Trigger 'php-defn-defn' at 1498 (explicit)>
+[07/25/2018 07:32:35PM] INFO - start scope is (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:32:35PM] INFO - _hit_from_citdl:: expr: 'ErrorConst.REQUEST_CMD_EXCUTE_ERROR', scoperef: (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:32:35PM] INFO - _hit_from_citdl:: expr tokens: ['ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR']
+[07/25/2018 07:32:35PM] INFO - _hits_from_first_part:: find 'ErrorConst ...' starting at (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:32:35PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:32:35PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:32:35PM] INFO - _hits_from_first_part:: pt3: is 'ErrorConst' accessible on (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr', 'handleGMCmd'])? no
+[07/25/2018 07:32:35PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x00000000055D4A58>, []):
+[07/25/2018 07:32:35PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:32:35PM] INFO - _hits_from_first_part:: pt3: is 'ErrorConst' accessible on (<Element 'scope' at 0x00000000055D4A58>, [])? no
+[07/25/2018 07:32:35PM] INFO - _hit_from_elem_imports:: trying import everything: tokens: ['ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR']
+[07/25/2018 07:32:35PM] INFO - _hit_from_elem_imports:: trying with lpath: ('ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR')
+[07/25/2018 07:32:35PM] INFO - _hit_from_elem_imports:: ie: lookup ('ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR') in <PHP curdirlib> => []
+[07/25/2018 07:32:35PM] INFO - _hit_from_elem_imports:: ie: lookup ('ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR') in <PHP extradirslib> => [(<Element 'variable' at 0x00000000054E0048>, (<Element 'scope' at 0x0000000008A73358>, ['ErrorConst']))]
+[07/25/2018 07:32:35PM] INFO - _hit_from_elem_imports:: ie: matched ('ErrorConst', 'REQUEST_CMD_EXCUTE_ERROR') to <Element 'variable' at 0x00000000054E0048> in blob <Element 'scope' at 0x0000000008A73358>
+[07/25/2018 07:32:35PM] INFO - _return_with_hit:: hit is okay: (<Element 'variable' at 0x00000000054E0048>, (<Element 'scope' at 0x0000000008A73358>, ['ErrorConst']))
+[07/25/2018 07:32:35PM] INFO - _return_with_hit:: hit is okay: (<Element 'variable' at 0x00000000054E0048>, (<Element 'scope' at 0x0000000008A73358>, ['ErrorConst']))
+[07/25/2018 07:32:35PM] INFO - _hits_from_first_part:: pt4: is 'ErrorConst.REQUEST_CMD_EXCUTE_ERROR' accessible on (<Element 'scope' at 0x00000000055D4A58>, [])? yes, imported: <Element 'variable' at 0x00000000054E0048>
+[07/25/2018 07:32:35PM] INFO - _hit_from_citdl:: found 'ErrorConst.REQUEST_CMD_EXCUTE_ERROR' => <Element 'variable' at 0x00000000054E0048> on (<Element 'scope' at 0x0000000008A73358>, ['ErrorConst'])
+[07/25/2018 07:32:35PM] INFO -     defns: [<Definition: constant 'REQUEST_CMD_EXCUTE_ERROR' at ErrorObject.php#68 in ErrorObject.php lpath=['ErrorConst']>]
+[07/25/2018 07:32:35PM] INFO - done eval: success
+[07/25/2018 07:47:38PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 07:47:38PM] INFO - eval 'ErrorConst' at GM_Mgr.php#62  <Trigger 'php-defn-defn' at 1487 (explicit)>
+[07/25/2018 07:47:38PM] INFO - start scope is (<Element 'scope' at 0x0000000005610B38>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:47:38PM] INFO - _hit_from_citdl:: expr: 'ErrorConst', scoperef: (<Element 'scope' at 0x0000000005610B38>, ['GM_Mgr', 'handleGMCmd'])
+[07/25/2018 07:47:38PM] INFO - _hit_from_citdl:: expr tokens: ['ErrorConst']
+[07/25/2018 07:47:38PM] INFO - _hits_from_first_part:: find 'ErrorConst ...' starting at (<Element 'scope' at 0x0000000005610B38>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:47:38PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x0000000005610B38>, ['GM_Mgr', 'handleGMCmd']):
+[07/25/2018 07:47:38PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:47:38PM] INFO - _hits_from_first_part:: pt3: is 'ErrorConst' accessible on (<Element 'scope' at 0x0000000005610B38>, ['GM_Mgr', 'handleGMCmd'])? no
+[07/25/2018 07:47:38PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x0000000005610B38>, []):
+[07/25/2018 07:47:38PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 07:47:38PM] INFO - _hits_from_first_part:: pt3: is 'ErrorConst' accessible on (<Element 'scope' at 0x0000000005610B38>, [])? no
+[07/25/2018 07:47:38PM] INFO - _hit_from_elem_imports:: trying import everything: tokens: ['ErrorConst']
+[07/25/2018 07:47:38PM] INFO - _hit_from_elem_imports:: trying with lpath: ('ErrorConst',)
+[07/25/2018 07:47:38PM] INFO - _hit_from_elem_imports:: ie: lookup ('ErrorConst',) in <PHP curdirlib> => []
+[07/25/2018 07:47:38PM] INFO - _hit_from_elem_imports:: ie: lookup ('ErrorConst',) in <PHP extradirslib> => [(<Element 'scope' at 0x000000000567DC88>, (<Element 'scope' at 0x0000000005578BA8>, []))]
+[07/25/2018 07:47:38PM] INFO - _hit_from_elem_imports:: ie: matched ('ErrorConst',) to <Element 'scope' at 0x000000000567DC88> in blob <Element 'scope' at 0x0000000005578BA8>
+[07/25/2018 07:47:38PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x000000000567DC88>, (<Element 'scope' at 0x0000000005578BA8>, []))
+[07/25/2018 07:47:38PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x000000000567DC88>, (<Element 'scope' at 0x0000000005578BA8>, []))
+[07/25/2018 07:47:38PM] INFO - _hits_from_first_part:: pt4: is 'ErrorConst' accessible on (<Element 'scope' at 0x0000000005610B38>, [])? yes, imported: <Element 'scope' at 0x000000000567DC88>
+[07/25/2018 07:47:38PM] INFO - _hit_from_citdl:: found 'ErrorConst' => <Element 'scope' at 0x000000000567DC88> on (<Element 'scope' at 0x0000000005578BA8>, [])
+[07/25/2018 07:47:38PM] INFO -     defns: [<Definition: class 'ErrorConst' at ErrorObject.php#49 in ErrorObject.php lpath=[]>]
+[07/25/2018 07:47:38PM] INFO - done eval: success
+[07/25/2018 07:55:37PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 08:03:06PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 08:04:22PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 08:06:30PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 08:06:40PM] INFO - eval 'pub' at GM_Mgr.php#29  <Trigger 'php-complete-functions' at 599>
+[07/25/2018 08:06:40PM] INFO - function_names_from_scope_starting_with_expr:: expr: 'pub', scoperef: (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr']) for ('locals', 'namespace', 'globals', 'imports')
+[07/25/2018 08:06:40PM] INFO - function_names_from_scope_starting_with_expr:: adding locals: []
+[07/25/2018 08:06:40PM] INFO - function_names_from_scope_starting_with_expr:: adding globals: []
+[07/25/2018 08:06:40PM] INFO - constant_names_from_scope_starting_with_expr:: expr: 'pub', scoperef: (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr']) for ('globals', 'imports', 'builtins')
+[07/25/2018 08:06:40PM] INFO - constant_names_from_scope_starting_with_expr:: adding globals: []
+[07/25/2018 08:06:40PM] INFO - class_names_from_scope_starting_with_expr:: expr: 'pub', scoperef: (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr']) for ('locals', 'namespace', 'globals', 'imports')
+[07/25/2018 08:06:40PM] INFO - class_names_from_scope_starting_with_expr:: adding locals: []
+[07/25/2018 08:06:40PM] INFO - class_names_from_scope_starting_with_expr:: adding globals: []
+[07/25/2018 08:06:40PM] INFO - namespace_names_from_scope_starting_with_expr:: expr: 'pub', scoperef: (<Element 'scope' at 0x00000000055D4A58>, ['GM_Mgr']) for ('namespace', 'globals')
+[07/25/2018 08:06:40PM] INFO - namespace_names_from_scope_starting_with_expr:: adding globals: []
+[07/25/2018 08:06:40PM] INFO -     cplns: [('keyword', 'public')]
+[07/25/2018 08:06:40PM] INFO - done eval: success
+[07/25/2018 08:06:40PM] INFO - Autocomplete called (PHP) [cplns]
+[07/25/2018 08:06:40PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 08:06:46PM] INFO - eval 'a' at GM_Mgr.php#29  <Trigger 'php-complete-variables' at 620>
+[07/25/2018 08:06:46PM] INFO - variable_names_from_scope_starting_with_expr:: expr: None, scoperef: (<Element 'scope' at 0x0000000005560668>, ['GM_Mgr']) for ('locals', 'builtins')
+[07/25/2018 08:06:46PM] INFO - variable_names_from_scope_starting_with_expr:: adding locals: ['handlerMap', 'serverData', 'messageData']
+[07/25/2018 08:06:46PM] INFO -     cplns: []
+[07/25/2018 08:06:46PM] INFO - done eval: success
+[07/25/2018 08:06:47PM] INFO - eval 'abc' at GM_Mgr.php#29  <Trigger 'php-calltip-call-signature' at 619>
+[07/25/2018 08:06:47PM] INFO - _hit_from_citdl:: expr: 'abc', scoperef: (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr'])
+[07/25/2018 08:06:47PM] INFO - _hit_from_citdl:: expr tokens: ['abc']
+[07/25/2018 08:06:47PM] INFO - _hits_from_first_part:: find 'abc ...' starting at (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr']):
+[07/25/2018 08:06:47PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr']):
+[07/25/2018 08:06:47PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 08:06:47PM] INFO - _hits_from_first_part:: pt3: is 'abc' accessible on (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr'])? no
+[07/25/2018 08:06:47PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x00000000054EFBA8>, []):
+[07/25/2018 08:06:47PM] INFO - _hits_from_first_part:: checking namespace aliases
+[07/25/2018 08:06:47PM] INFO - _hits_from_first_part:: pt3: is 'abc' accessible on (<Element 'scope' at 0x00000000054EFBA8>, [])? no
+[07/25/2018 08:06:47PM] INFO - _hit_from_elem_imports:: trying import everything: tokens: ['abc']
+[07/25/2018 08:06:47PM] INFO - _hit_from_elem_imports:: trying with lpath: ('abc',)
+[07/25/2018 08:06:47PM] INFO - _hit_from_elem_imports:: ie: lookup ('abc',) in <PHP curdirlib> => []
+[07/25/2018 08:06:47PM] INFO - _hit_from_elem_imports:: ie: lookup ('abc',) in <PHP extradirslib> => []
+[07/25/2018 08:06:47PM] INFO - _hit_from_elem_imports:: ie: lookup ('abc',) in <PHP cataloglib: > => []
+[07/25/2018 08:06:47PM] INFO - _hit_from_elem_imports:: ie: lookup ('abc',) in <php-5.5 stdlib> => []
+[07/25/2018 08:06:47PM] INFO - _hit_from_elem_imports:: ie: no matches found
+[07/25/2018 08:06:47PM] ERROR - evaluating 'abc' at GM_Mgr.php#29: could not resolve first part of 'abc'
+[07/25/2018 08:06:47PM] INFO - done eval: eval error
+[07/25/2018 08:06:50PM] INFO - scan_purelang: path: 'G:\\GitHub\\GameWeb\\Server\\base\\GM_Mgr.php' lang: PHP
+[07/25/2018 08:06:50PM] INFO - eval 'b' at GM_Mgr.php#29  <Trigger 'php-complete-variables' at 623>
+[07/25/2018 08:06:50PM] INFO - variable_names_from_scope_starting_with_expr:: expr: None, scoperef: (<Element 'scope' at 0x0000000005578278>, ['GM_Mgr', 'abc']) for ('locals', 'builtins')
+[07/25/2018 08:06:50PM] INFO - variable_names_from_scope_starting_with_expr:: adding locals: ['a', 'b', 'handlerObject', 'ret']
+[07/25/2018 08:06:50PM] INFO -     cplns: [('variable', 'b')]
+[07/25/2018 08:06:50PM] INFO - done eval: success
+[07/25/2018 08:06:50PM] INFO - Autocomplete called (PHP) [cplns]
+[07/25/2018 08:06:50PM] INFO - eval 'abc' at GM_Mgr.php#29  <Trigger 'php-calltip-call-signature' at 619>
+[07/25/2018 08:06:50PM] INFO - _hit_from_citdl:: expr: 'abc', scoperef: (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr', 'abc'])
+[07/25/2018 08:06:50PM] INFO - _hit_from_citdl:: expr tokens: ['abc']
+[07/25/2018 08:06:50PM] INFO - _hits_from_first_part:: find 'abc ...' starting at (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr', 'abc']):
+[07/25/2018 08:06:50PM] INFO - _hits_from_first_part:: scoperef now (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr', 'abc']):
+[07/25/2018 08:06:50PM] INFO - _return_with_hit:: hit is okay: (<Element 'scope' at 0x000000000558B438>, (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr', 'abc']))
+[07/25/2018 08:06:50PM] INFO - _hits_from_first_part:: pt1: is 'abc' accessible on (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr', 'abc'])? yes: <Element 'scope' at 0x000000000558B438>
+[07/25/2018 08:06:50PM] INFO - _hit_from_citdl:: found 'abc' => <Element 'scope' at 0x000000000558B438> on (<Element 'scope' at 0x00000000054EFBA8>, ['GM_Mgr', 'abc'])
+[07/25/2018 08:06:50PM] INFO -     calltips: ['abc($a, $b)']
+[07/25/2018 08:06:50PM] INFO - done eval: success
+[07/25/2018 08:06:50PM] INFO - Autocomplete called (PHP) [calltips]
+[07/25/2018 08:06:53PM] INFO - eval 'c' at GM_Mgr.php#29  <Trigger 'php-complete-variables' at 626>
+[07/25/2018 08:06:53PM] INFO - variable_names_from_scope_starting_with_expr:: expr: None, scoperef: (<Element 'scope' at 0x0000000005560668>, ['GM_Mgr', 'abc']) for ('locals', 'builtins')
+[07/25/2018 08:06:53PM] INFO - variable_names_from_scope_starting_with_expr:: adding locals: ['a', 'b', 'handlerObject', 'ret']
+[07/25/2018 08:06:53PM] INFO -     cplns: []
+[07/25/2018 08:06:53PM] INFO - done eval: success

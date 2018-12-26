@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"debug": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"Package Control",
+		"phpfmt",
+		"ProjectManager",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"Themr",
+		"Xdebug Client"
+	]
+}
