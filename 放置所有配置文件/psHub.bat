@@ -8,6 +8,7 @@ cd ../CsharpCode && git cps
 cd ../tmp && git cps
 cd ../common && git cps
 cd ../Mics && git cps
+cd ../OneNote && git cps
 
 cd ../OSM-Master && git cps
 cd ../Scut && git cps
